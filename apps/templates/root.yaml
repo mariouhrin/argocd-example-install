@@ -7,11 +7,11 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: argocd
   project: default
   source:
     path: apps/
-    repoURL: https://github.com/arthurk/argocd-example-install.git
+    repoURL: https://github.com/mariouhrin/argocd-example-install.git
     targetRevision: HEAD
   syncPolicy:
     automated:
