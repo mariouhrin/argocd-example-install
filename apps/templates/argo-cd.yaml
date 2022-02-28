@@ -9,7 +9,8 @@ spec:
   project: default
   source:
     repoURL: https://argoproj.github.io/argo-helm
-    targetRevision: 3.26.8
+    # targetRevision: 3.26.8
+    targetRevision: 3.33.3
     chart: argo-cd
     helm:
       values: |-
