@@ -14,7 +14,7 @@ spec:
     chart: argo-cd
     helm:
       valueFiles:
-      - https://github.com/mariouhrin/argocd-example-install/apps/values.yaml
+      - https://github.com/mariouhrin/argocd-example-install/apps/values-override.yaml
       # values: |-
       #   installCRDs: false
       #   dex:
