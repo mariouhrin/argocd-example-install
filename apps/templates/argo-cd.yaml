@@ -13,7 +13,6 @@ spec:
     chart: argo-cd
     alias: argocd
     helm:
-      valueFiles:
       values: |-
         installCRDs: false
         dex:
