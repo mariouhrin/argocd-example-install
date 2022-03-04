@@ -1,4 +1,4 @@
-argo-cd:
+argocd:
   installCRDs: false
   dex:
     enabled: false
